@@ -84,3 +84,6 @@ $ git status
 ```
 $ git log
 ```
+
+## add->commit->pushでconflictを避けるために
+commitをする前にpullしてローカルレポジトリを最新の状態にし、commit->pushをすると良い。
